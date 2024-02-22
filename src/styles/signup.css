@@ -1,0 +1,119 @@
+body{
+    background-color: #000000;
+}
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+   }
+
+.container{
+    border-radius: 5px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 400px;
+    align-items: center;
+    /* padding: 2rem 2rem 1.5rem; */
+    background-color: #000000;
+    border: 1px solid #252526;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+
+}
+.google-button{
+  background-color: #2392f7;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+    margin:0 auto;
+    /* width: 80%; */
+    display:block;
+    /* padding: 5px; */
+    border-radius: 5px;
+    /* line-height: 1px; */
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+
+}
+.img{
+  /* position: relative; */
+ 
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  margin: 0;
+  margin-right: 5px;
+  margin-left: -5px;
+  display: inline-block;
+    background: url('../assets/google.png');
+    background-size: cover;
+    background-position:left center;
+    background-repeat:no-repeat;
+    vertical-align: middle;
+    background-color: white;
+}
+.form{
+    height: auto;
+    position: absolute;
+    top: 10%;
+    /* margin: 0 auto; */
+    /* padding: 10px; */
+    width: 200px;
+    position: relative;
+}
+  .form__input {
+    border-radius: 6px;
+    /* width: clamp(100px, 25vw, 420px); */
+    height: 2rem;
+    width: 145% ;
+    /* padding:0 0.2rem; */
+    border: 1px solid #000;
+    /* border-radius: 2px; */
+    margin: 0.3rem auto;
+    background-color: #252526;
+  }
+  h5{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin: 0;
+    font-size: 25px;
+
+  }
+
+  .sign-up{
+    background-color: #ef4036;
+    border-radius: 6px;
+    /* width: clamp(100px, 25vw, 420px); */
+    height: 2.3rem;
+    width: 149% ;
+    margin: 1rem auto;
+    color: white;
+    padding: 5px;
+  }
+
+  .Login-redirect{
+    padding-top: 20px;
+    color: white;
+    display: inline-block;
+    align-self: flex-end;
+  }
+  a{
+    color: red;
+    text-decoration: none;
+  }
+  
+  .signup-redirect{
+    padding-top: 50px;
+    color: white;
+    display: inline-block;
+    align-self: flex-end;
+  }
